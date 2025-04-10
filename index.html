@@ -3,24 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Glitch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Bastardised Food</title>
 </head>
 <body>
-    <div class="topnav">
-        <a href="index.html" class="active">Home</a>
-        <div id="links">
-            <a href="food.html">Food</a>
-            <a href="posts.html">Posts</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    <header>
+        <h1>Bastardised Food</h1>
+        <p>Breaking "rules" and making tasty things.</p>
+    </header>
+    <!-- MAIN -->
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to Bastardised Food</h2>
+            <p>Here we take foods we like and make dishes and meals we enjoy. Creating things based on the foods enojyed in the past, recipes we know and those we've found and crating something along those lines or completely different. Love it or hate it... up to you. If there's somethign you don't like change it. Simple. </p>
+        </section>
+        <section class="latest">
+            <h2>Latest Bastardisations</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                <h3><a href="posts/not-tortilla.html">The "not tortilla" Spicy Meaty Egg and Onion Slab</a></h3>
+                <p class="excerpt">My take on an egg dish, that is definitley not tortilla, with chorizo and rebellion.</p>
+                <span class="meta">Posted: [Date]</span>
+                </article>
+                <!-- More cards -->
+            </div>
+        </section>
+        <!-- <section class="categories">
+            <h2>Explore by Chaos Type</h2>
+            <div class="category-buttons">
+              <a href="#" class="button">Meaty Mutations</a>
+              <a href="#" class="button">Vegetable Villainy</a>
+            </div>
+          </section> -->
+        <!-- <section class="featured">
+            <h2>Featured Recipes</h2>
+            <ul>
+                <li><a href="posts/not-tortilla.html">The "not tortilla" Spicy Meaty Egg and Onion Slab</a></li>
+                <li><a href="#">Something else</a></li>
+                <li><a href="#">Somethign else</a></li>
+            </ul>
+        </section> -->
+        
+    </main>
+    <!-- FOOTER -->
+    <footer>
 
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
