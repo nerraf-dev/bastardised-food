@@ -1,0 +1,9 @@
+/* Define CSS variables */
+:root {
+    --bg-colour: #000116;
+    --primary-colour: #fcec03;
+    --navbar-border-colour: #fcec03;
+    --navbar-text-colour: #fcec03;
+    --hover-bg-colour: #fcec03;
+    --hover-text-colour: #000000;
+  }

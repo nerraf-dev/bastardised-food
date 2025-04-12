@@ -1,0 +1,19 @@
+{
+    "title": "Airfryer Fish \"Taco\".",
+    "intro": "My rebellion against...",
+    "ingredients": ["white fish", 
+                    "ground cumin", 
+                    "paprika, spicy", 
+                    "chilli flakes", 
+                    "salt", 
+                    "pepper", 
+                    "cabbage", 
+                    "carrot",
+                    "avocado",
+                    "red onion",
+                    "lime juice",
+                    "sour cream",
+                    "corriander"],
+    "steps": ["Fry the potatoes...", "Add the eggs..."],
+    "waffle": "Here’s why purists hate me..."
+  }
