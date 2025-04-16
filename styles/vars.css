@@ -1,9 +1,28 @@
 /* Define CSS variables */
 :root {
-    --bg-colour: #000116;
-    --primary-colour: #fcec03;
-    --navbar-border-colour: #fcec03;
-    --navbar-text-colour: #fcec03;
-    --hover-bg-colour: #fcec03;
+    --bg-colour: #222637;
+    --primary-colour: #FFBC02;
+    --secondary-colour: #dadada;
+
+    --body-text-colour: #b4b4b3;
+    --h1-colour: #FFBC02;
+    --h2-colour: #FFBC02;
+    --h3-colour: #d00303;
+
+    
+    /* Navbar related vars */
+    --navbar-border-colour: #FFBC02;
+    --navbar-text-colour: #EFBC30;
+    --hover-bg-colour: #FFBC02;
     --hover-text-colour: #000000;
+
+    /* Header related vars */
+    --header-bg-colour: #000116;
+    --header-h1-colour: #FFBC02;
+    --header-text-colour: #dadada;
+
+    /* details vars */
+    --details-bg-colour: #1c1d38;
+    --details-text-colour: #FFBC02;
+    /* Footer related vars */
   }

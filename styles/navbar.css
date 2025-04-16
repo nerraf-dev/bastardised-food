@@ -7,7 +7,12 @@
   align-items: center;
   padding: 1rem;
   background-color: var(--bg-colour);
-  position: relative; /* Needed for absolute positioning of dropdown */
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Stick it to the top of the page */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
 }
 
 .menu-toggle {
@@ -17,17 +22,26 @@
   order: 1; /* Position after logo */
 }
 
+.logo {
+  color: var(--navbar-text-colour);
+  order: 0; /* Position before the toggle */
+}
+
+.logo h1 {
+  font-size: 20px;
+}
+
 .nav-links {
   display: none; /* Hide the nav links by default on mobile */
   flex-direction: column;
-  position: absolute;
-  top: 100%; /* Position below the navbar */
+  position: fixed; /* Change to fixed to align with the fixed navbar */
+  top: 55px; /* Adjust this value to match the height of the navbar */
   left: 0;
   right: 0;
-  background-color: var(--bg-colour);
+  background-color: var(--header-bg-colour);
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 10; /* Ensure it's above other content */
+  z-index: 1000; /* Ensure it's above other content */
   margin: 0 auto; /* Center the dropdown */
 }
 

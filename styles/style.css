@@ -1,5 +1,38 @@
+@import "vars.css"; 
 @import "reset.css";
 @import "navbar.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Marker+Hatch&display=swap');
+
+/* Default styles (mobile first) */
+body {
+  background-color: var(--header-bg-colour);
+  color: var(--body-text-colour);
+  font-family: "IBM Plex Sans", system-ui !important;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 60px;
+}
+
+h1 {
+  color: var(--h1-colour);
+  font-family: "Rubik Marker Hatch", system-ui !important;
+  font-size: 64px;
+  margin: 0;
+}
+
+h2 {
+  color: var(--h2-colour);
+  font-family: "Rubik Marker Hatch", system-ui !important;
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+  color: var(--h3-colour);
+  /* font-family: "Rubik Marker Hatch", system-ui !important; */
+  font-size: 20px;
+  margin: 0;
+}
 
 .container {
   max-width: 1100px;
@@ -9,44 +42,27 @@
 
 /* HEADER */
 header {
-  background-color: #f1f1f194;
+  background-color: var(--header-bg-colour);
+  color: var(--header-text-colour);
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  /* font-family: "Rubik Glitch", system-ui !important; */
+  color: var(--header-h1-colour);
   font-size: 42px;
   margin: 0;
 }
 
-/* .home {
-  padding: 20px
-} */
-
-body {
-  font-family: "IBM Plex Sans", system-ui !important;
-  font-size: 16px;
-  margin: 0;
+.hero {
+  padding-bottom: 20px;
 }
-
-h1 {
-  font-family: "Rubik Marker Hatch", system-ui !important;
-  font-size: 32px;
-  margin: 0;
-}
-
-h2 {
-  font-family: "Rubik Marker Hatch", system-ui !important;
-  font-size: 24px;
-  margin: 0;
-}
-
 
 .post-grid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding-top: 10px
 }
 .post-card {
   border: 1px solid #eee;
@@ -54,9 +70,28 @@ h2 {
   border-radius: 8px;
 }
 
+details {
+  background-color: var(--bg-colour);
+  padding: 1rem;
+  border: #dddddd7c 1px dashed;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
 
+details summary {
+  color: var(--details-text-colour);
+  font-family: "Rubik Marker Hatch", system-ui !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+ details .content {
+  /* padding: 1rem; */
+  /* background-color: var(--details-bg-colour); */
+  border-radius: 12px;
+  /* margin-top: 1rem; */
+ }
 
-
+/* Tablet */
 @media (min-width: 768px) {
 .post-grid {
   display: grid;
@@ -64,7 +99,7 @@ h2 {
 }
 }
 
-
+/* Desktop */
 @media (min-width: 1024px) {
 .post-grid {
   grid-template-columns: repeat(3, 1fr);

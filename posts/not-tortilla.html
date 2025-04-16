@@ -8,37 +8,153 @@
     <title>Bastardised Food</title>
 </head>
 <body>
-    <header>
-        <h1>Bastardised Food</h1>
-        <p>Breaking "rules" and making tasty things.</p>
-    </header>
+    <nav class="navbar">
+        <div class="logo">
+            <h1><a href="../index.html">Bastardised Food</a></h1>
+        </div>
+        
+        <input type="checkbox" id="menu-toggle-checkbox">
+        <label for="menu-toggle-checkbox" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../food.html">Food</a></li>
+            <li><a href="../posts.html">Posts</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    <!-- <header>
+        <h2>The "not tortilla" Spicy Meaty Egg and Onion Slab</h2>
+        <p class="intro">My rebellion against Spanish tortilla orthodoxy. Adds heat, meat, and no apologies.</p>
+    </header> -->
     <!-- MAIN -->
-    <main>
-        <article class="post">
-            <h2>The "not tortilla" Spicy Meaty Egg and Onion Slab</h2>
-            <p class="intro">My rebellion against Spanish tortilla orthodoxy. Adds heat, meat, and no apologies.</p>
-            
-            <div class="recipe">
-              <h3>Recipe</h3>
-              <ul class="ingredients">
-                <li>Some eggs</li>
-                <li>onion, pref white diced</li>
-                <li>Spring onion</li>
-                <li>chorizo, diced</li>
-                <li>bacon or ham</li>
-                <li>pepper, diced</li>
-                <li>Cheese</li>
-                <li>Chilli, fresh. Flakes are ok</li>
-                <li>Salt and pepper to taste</li>
-              </ul>
-              <ol class="instructions">...</ol>
-            </div>
-          
-            <details class="waffle"> <!-- Collapsible section -->
-              < >Why I Did This (Click to Expand)</summary>
-              <p>Here’s where I rant about purists...</p>
-            </details>
-          </article>
+    <main class="container">
+
+      <article>
+        <h1>Egg and Meat Slab</h1>
+        <p><em>A thick, Spanish-inspired egg brick for those who refuse to flip tortillas properly.</em></p>
+
+        <details open>
+          <summary>📝 Ingredients</summary>
+          <ul class="content">
+            <li><strong>Protein:</strong>
+                <ul>
+                    <li>6 Eggs, beaten</li>
+                    <li>50g chorizo</li>
+                    <li>30g ham</li>
+                </ul>
+            </li>
+            <li><strong>Veg:</strong>
+                <ul>
+                    <li>1 onion. White or spring onion. Why not both?</li>
+                    <li>1 tomato, chopped</li>
+                    <li>5-10 jalapeño slices (or Spanish <em>guindillas</em>)</li>
+                </ul>
+            </li>
+            <li><strong>Dairy:</strong>
+                <ul>
+                    <li>50g grated cheddar (or <em>queso manchego</em>)</li>
+                </ul>
+            </li>
+            <li><strong>Seasoning:</strong>
+                <ul>
+                    <li>1 tsp spicy paprika</li>
+                    <li>½ tsp cumin</li>
+                    <li>A couple of pinches of chilli flakes</li>
+                    <li>Black pepper & salt to taste</li>
+                </ul>
+            </li>
+            <li><strong>Extras:</strong>
+                <ul>
+                    <li>Hot sauce</li>
+                    <li>1 tbsp oil</li>
+                </ul>
+            </li>
+          </ul>
+        </details>
+    
+        <details>
+          <summary>👩‍🍳 Method</summary>
+          <div class="content">
+            <ol>
+                <li><strong>Prep:</strong>
+                    <ul>
+                        <li>Chop all ingredients roughly (no Michelin stars here).</li>
+                        <li>Beat eggs in a bowl.</li>
+                    </ul>
+                </li>
+                <li><strong>Cook:</strong>
+                    <ul>
+                        <li>Heat oil in a non-stick pan (medium heat).</li>
+                        <li>Fry chorizo/ham, then add onions → soften.</li>
+                        <li>Add tomato, jalapeños, spices → cook 2 mins.</li>
+                        <li>Sprinkle cheese over, let melt slightly.</li>
+                    </ul>
+                </li>
+                <li><strong>Egg Time:</strong>
+                    <ul>
+                        <li>Pour beaten eggs evenly over mixture.</li>
+                        <li>Cook 5 mins (edges should set, centre still jiggly).</li>
+                    </ul>
+                </li>
+                <li><strong>Grill:</strong>
+                    <ul>
+                        <li>Transfer pan under hot grill for 2-3 mins until golden.</li>
+                    </ul>
+                </li>
+                <li><strong>Serve:</strong>
+                    <ul>
+                        <li>Slide onto plate or eat straight from the pan.</li>
+                    </ul>
+                </li>
+            </ol>
+          </div>
+
+        </details>
+
+        <details>
+          <summary>💰 Budget Notes</summary>
+          <ul>
+              <li><strong>Cheap swaps:</strong> Use bacon ends or jamón scraps.</li>
+              <li><strong>Pantry heroes:</strong> Paprika, cumin last forever.</li>
+              <li><strong>Total cost:</strong> ~€[X] (add later)</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>⏱️ Timings</summary>
+          <ul>
+              <li>Prep: [X] mins</li>
+              <li>Cook: [X] mins</li>
+              <li>Total: [X] mins</li>
+          </ul>
+        </details>
+        
+        <details>
+          <summary>🎸 Soundtrack</summary>
+          <ul">
+              <li>Another Girl, Another Planet - The Only Ones</li>
+              <li>What Do I Get? - Buzzcocks</li>
+              <li>I'm So Bored with the U.S.A - The Clash</li>
+              <li>Go Buddy Go - The Stranglers</li>
+              <li>One Chord Wonders - The Adverts</li>
+              <li>In A Rut - The Ruts</li>
+              <li>Don't Dictate - Penetration</li>
+              <li>Family Entertainments - The Undertones</li>
+              <li>Trouble - 999</li>
+              <li>Teenage Depression - Eddie & The Hot Rods</li>
+              <li>Max's Kansas City - Wayne County & The Electric Chair</li>
+              <li>Teenage Letter - The Count Bishops</li>
+              <li>Action Time Vision - ATV</li>
+          </ul>
+        </details>
+        <details class="waffle"> <!-- Collapsible section -->
+          <summary>Why I Did This (Click to Expand)</summary>
+          <p>Here’s where I rant about purists...</p>
+        </details>
+      </article>
     </main>
     <!-- FOOTER -->
     <footer>
