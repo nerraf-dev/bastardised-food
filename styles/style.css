@@ -57,7 +57,7 @@ header h1 {
 .hero {
   height: 400px;
   background-color: rgb(19, 17, 55);
-  border: #dddd 1px solid;
+  border: var(--secondary-colour) 1px solid;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
