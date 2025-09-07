@@ -67,17 +67,27 @@ nav a {
 
 /* Desktop styles (apply when screen width is 769px or more) */
 @media (min-width: 769px) {
+  .navbar {
+      justify-content: space-between; /* Keep space-between but control with order */
+  }
+
   .menu-toggle {
       display: none; /* Hide the toggle on desktop */
+  }
+
+  .logo {
+      order: 0; /* Logo first */
   }
 
   .nav-links {
       display: flex; /* Show the links horizontally on desktop */
       flex-direction: row;
+      order: 1; /* Nav links second - this will push them right with space-between */
       position: static;
       background-color: transparent;
       padding: 0;
       box-shadow: none;
+      margin: 0; /* Reset the mobile margin */
   }
 
   .nav-links li {
