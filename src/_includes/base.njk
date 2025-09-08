@@ -13,11 +13,12 @@
         <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Rubik+Glitch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
         <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet"> -->
         
-        <title>({ title })</title>
+        <title> {{ title }} </title>
     </head>
 
     <body>
         {% include "nav.njk" %}
+        
         <!-- MAIN -->
         <main class="container">
             {{ content | safe }}
@@ -26,6 +27,6 @@
         <footer>
 
         </footer>
-        <script src="js/script.js"></script>
+        <script src="../scripts/script.js"></script>
     </body>
 </html>
