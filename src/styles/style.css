@@ -41,7 +41,7 @@ h3 {
 }
 
 /* HEADER */
-header {
+/* header {
   background-color: var(--header-bg-colour);
   color: var(--header-text-colour);
   padding: 20px;
@@ -52,7 +52,7 @@ header h1 {
   color: var(--header-h1-colour);
   font-size: 42px;
   margin: 0;
-}
+} */
 
 .hero {
   height: 400px;
