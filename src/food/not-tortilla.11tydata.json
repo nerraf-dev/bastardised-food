@@ -15,8 +15,8 @@
           "label": "Protein",
           "items": [
             "6 Eggs, beaten",
-            "50g chorizo",
-            "30g ham"
+            "chorizo",
+            "ham"
           ]
         },
         {
@@ -24,21 +24,21 @@
           "items": [
             "1 onion. White or spring onion. Why not both?",
             "1 tomato, chopped",
-            "5-10 jalapeño slices (or Spanish guindillas)"
+            "jalapeño slices (or Spanish guindillas)"
           ]
         },
         {
           "label": "Dairy",
           "items": [
-            "50g grated cheddar (or queso manchego)"
+            "grated cheddar (or queso manchego)"
           ]
         },
         {
           "label": "Seasoning",
           "items": [
-            "1 tsp spicy paprika",
-            "½ tsp cumin",
-            "A couple of pinches of chilli flakes",
+            "spicy paprika",
+            "cumin",
+            "chilli flakes",
             "Black pepper & salt to taste"
           ]
         },
@@ -81,8 +81,7 @@
           "label": "Flip",
           "instructions": [
             "Use a large plate to flip the slab (like a giant omelette).",
-            "Slide back into pan, cook 5 mins more (or until set).",
-            "Alternatively there's a weird kind of stirring thing you can do."
+            "Slide back into pan, cook 5 mins more (or until set)."
           ]
         },
         {
