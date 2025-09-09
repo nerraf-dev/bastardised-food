@@ -4,13 +4,7 @@ module.exports = function(eleventyConfig) {
   // Pass through static files, add shortcodes, etc.
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/scripts");
-
-  // Shortcode to load JSON data for a recipe
-  const fs = require("fs");
-  eleventyConfig.addShortcode("loadRecipe", function(jsonPath) {
-    const fullPath = require("path").join(__dirname, "src", "recipes", jsonPath.replace("../recipes/", ""));
-    return JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-  });
+  eleventyConfig.addPassthroughCopy("src/images");
 
 
   // ***Filters:***
@@ -32,7 +26,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       includes: "_includes",
-      output: "./_site"
+      output: "_site"
     }
   };
 };
