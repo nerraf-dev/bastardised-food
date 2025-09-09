@@ -5,6 +5,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/scripts");
 
+  // Shortcode to load JSON data for a recipe
+  const fs = require("fs");
+  eleventyConfig.addShortcode("loadRecipe", function(jsonPath) {
+    const fullPath = require("path").join(__dirname, "src", "recipes", jsonPath.replace("../recipes/", ""));
+    return JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+  });
+
 
   // ***Filters:***
   // date filter for Nunjucks

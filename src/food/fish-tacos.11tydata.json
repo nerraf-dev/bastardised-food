@@ -1,0 +1,119 @@
+{
+  "title": "A kind of fish taco",
+  "date": "2025-09-07",
+  "intro": "Crunchy, zesty, and unapologetically inauthentic – because tacos don't need passports.",
+  "serves": 4,
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "Fish",
+          "items": [
+            "2 white fish fillets (cod/hake)",
+            "1 tbsp spicy paprika",
+            "½ tsp cumin",
+            "½ tsp chilli flakes",
+            "1 lime (juiced)",
+            "Salt & pepper"
+          ]
+        },
+        {
+          "label": "Toppings",
+          "items": [
+            "1 avocado",
+            "¼ cabbage, shredded",
+            "1 carrot, grated",
+            "1 tomato, diced",
+            "½ onion, finely chopped"
+          ]
+        },
+        {
+          "label": "Extras",
+          "items": [
+            "Tortillas",
+            "Hot sauce",
+            "Oil/vinegar (for coleslaw)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Prep",
+          "instructions": [
+            "Chop onion/tomato, smash avocado, shred cabbage, grate carrot.",
+            "Mix spices with lime juice to form a paste (add juice slowly)."
+          ]
+        },
+        {
+          "label": "Fish",
+          "instructions": [
+            "Coat fish in spice paste.",
+            "Air fryer: 180°C for 12-15 mins (fresh) or 18-20 mins (frozen).",
+            "TIP: \"Frozen works, but fresh absorbs more flavor. Fork-test for flakiness.\""
+          ]
+        },
+        {
+          "label": "Sides",
+          "instructions": [
+            "Guac: Smash avocado + lime + salt + chilli flakes + onion/tomato.",
+            "Slaw: Mix cabbage, carrot, onion + salt, pepper, oil, vinegar."
+          ]
+        },
+        {
+          "label": "Serve",
+          "instructions": [
+            "Heat tortillas in dry pan (30 secs/side).",
+            "Flake fish into chunks, load up tacos with slaw/guac.",
+            "Drown in hot sauce (optional but recommended)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Cheap swap: Frozen fish vs fresh (saves ~€[X]).",
+        "Pantry heroes: Spices last months.",
+        "Total cost: ~€[X] (add later)"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "Dancer - IDLES",
+        "Statuette On The Console - BODEGA",
+        "Relieved - DEADLETTER",
+        "Gift Horse - IDLES",
+        "Dog Dribble - Getdown Services",
+        "Jobseeker - Sleaford Mods",
+        "100% Endurance - Yard Act",
+        "King of the Slugs - Fat Dog",
+        "Jiu Jits You - Panic Shack",
+        "Ain't No Thief - Viagra Boys",
+        "Never Fight a Man With a Perm - IDLES",
+        "U Should Not Be Doing That - Amyl and The Sniffers",
+        "Tweet Tweet Tweet - Sleaford Mods",
+        "I Love You Baby - Opus Kink",
+        "Lads Lads Lads - Lambrini Girls",
+        "POP POP POP - IDLES",
+        "Drop - HotWax"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "Double the spice paste – it keeps for 3 days in the fridge!"
+    }
+  ]
+}
