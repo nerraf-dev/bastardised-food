@@ -1,0 +1,91 @@
+---
+layout: base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  <p><em>{{ intro }}</em></p>
+  <p class="meta">
+    {% if serves %}<i class="fa-solid fa-people-group"></i> {{ serves }} {% endif %}
+    {% if meta and meta.time %}<i class="fa-solid fa-stopwatch"></i> {{ meta.time }} {% endif %}
+    {% if meta and meta.price %}<i class="fa-solid fa-receipt"></i> {{ meta.price }} {% endif %}
+    <!-- Add more meta info here if needed -->
+  </p>
+
+  {% for section in sections %}
+    {% if section.type == 'ingredients' %}
+      <details open>
+        <summary>📋 Ingredients</summary>
+        <ul class="content">
+          {% for group in section.groups %}
+            <li><strong>{{ group.label }}:</strong>
+              <ul>
+                {% for item in group.items %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% if section.type == 'method' %}
+      <details>
+        <summary>🍳 Method</summary>
+        <div class="content">
+          <ol>
+            {% for step in section.steps %}
+              <li><strong>{{ step.label }}:</strong>
+                <ul>
+                  {% for instruction in step.instructions %}
+                    <li>{{ instruction }}</li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      </details>
+    {% endif %}
+
+    {% if section.type == 'budget' %}
+      <details>
+        <summary>💰 Budget Notes</summary>
+        <ul>
+          {% for note in section.notes %}
+            <li>{{ note }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% if section.type == 'timings' %}
+      <details>
+        <summary>⏰ Timings</summary>
+        <ul>
+          {% for label, value in section.timings %}
+            <li>{{ label }}: {{ value }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% if section.type == 'soundtrack' %}
+      <details>
+        <summary>🎸 Soundtrack</summary>
+        <ul>
+          {% for track in section.tracks %}
+            <li>{{ track }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% if section.type == 'waffle' %}
+      <details class="waffle">
+        <summary>Pro Tip (Click to Expand)</summary>
+        <p>{{ section.text }}</p>
+      </details>
+    {% endif %}
+  {% endfor %}
+</article>

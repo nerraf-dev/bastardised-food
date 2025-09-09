@@ -1,0 +1,64 @@
+{
+  "title": "Recipe Title Here",
+  "date": "YYYY-MM-DD",
+  "intro": "Short intro or description for the recipe.",
+  "serves": 0,
+  "meta": {
+    "time": "[Time to make, e.g. 60 mins]",
+    "price": "[Price, e.g. 9.99€]"
+  },
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "Group Name (e.g. Protein)",
+          "items": [
+            "Ingredient 1",
+            "Ingredient 2"
+          ]
+        }
+        // Add more groups as needed
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Step Group (e.g. Prep)",
+          "instructions": [
+            "Instruction 1",
+            "Instruction 2"
+          ]
+        }
+        // Add more step groups as needed
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Budget note 1",
+        "Budget note 2"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "Track 1",
+        "Track 2"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "Extra notes, tips, or story."
+    }
+  ]
+}

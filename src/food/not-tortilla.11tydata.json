@@ -1,0 +1,135 @@
+{
+  "title": "The 'not tortilla' Spicy Meaty Egg and Onion Slab",
+  "date": "2025-09-08",
+  "intro": "A thick, Spanish-inspired egg brick.",
+  "serves": 4,
+  "meta": {
+    "time": "60 mins",
+    "price": "9.99€"
+  },
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "Protein",
+          "items": [
+            "6 Eggs, beaten",
+            "50g chorizo",
+            "30g ham"
+          ]
+        },
+        {
+          "label": "Veg",
+          "items": [
+            "1 onion. White or spring onion. Why not both?",
+            "1 tomato, chopped",
+            "5-10 jalapeño slices (or Spanish guindillas)"
+          ]
+        },
+        {
+          "label": "Dairy",
+          "items": [
+            "50g grated cheddar (or queso manchego)"
+          ]
+        },
+        {
+          "label": "Seasoning",
+          "items": [
+            "1 tsp spicy paprika",
+            "½ tsp cumin",
+            "A couple of pinches of chilli flakes",
+            "Black pepper & salt to taste"
+          ]
+        },
+        {
+          "label": "Extras",
+          "items": [
+            "Hot sauce",
+            "1 tbsp oil"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Prep",
+          "instructions": [
+            "Chop all ingredients roughly (no Michelin stars here).",
+            "Beat eggs in a bowl."
+          ]
+        },
+        {
+          "label": "Cook",
+          "instructions": [
+            "Heat oil in a non-stick pan (medium heat).",
+            "Fry chorizo/ham, then add onions → soften.",
+            "Add tomato, jalapeños, spices → cook 2 mins.",
+            "Sprinkle cheese over, let melt slightly."
+          ]
+        },
+        {
+          "label": "Egg Time",
+          "instructions": [
+            "Pour beaten eggs evenly over mixture.",
+            "Cook 5 mins (edges should set, centre still jiggly)."
+          ]
+        },
+        {
+          "label": "Flip",
+          "instructions": [
+            "Use a large plate to flip the slab (like a giant omelette).",
+            "Slide back into pan, cook 5 mins more (or until set).",
+            "Alternatively there's a weird kind of stirring thing you can do."
+          ]
+        },
+        {
+          "label": "Serve",
+          "instructions": [
+            "Slide onto plate or eat straight from the pan."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Cheap swaps: Use bacon ends or jamón scraps.",
+        "Pantry heroes: Paprika, cumin last forever.",
+        "Total cost: ~€[X] (add later)"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "Another Girl, Another Planet - The Only Ones",
+        "What Do I Get? - Buzzcocks",
+        "I'm So Bored with the U.S.A - The Clash",
+        "Go Buddy Go - The Stranglers",
+        "One Chord Wonders - The Adverts",
+        "In A Rut - The Ruts",
+        "Don't Dictate - Penetration",
+        "Family Entertainments - The Undertones",
+        "Trouble - 999",
+        "Teenage Depression - Eddie & The Hot Rods",
+        "Max's Kansas City - Wayne County & The Electric Chair",
+        "Teenage Letter - The Count Bishops",
+        "Action Time Vision - ATV"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "Here’s where I rant about purists..."
+    }
+  ]
+}
