@@ -11,9 +11,9 @@
           "label": "Fish",
           "items": [
             "2 white fish fillets (cod/hake)",
-            "1 tbsp spicy paprika",
-            "½ tsp cumin",
-            "½ tsp chilli flakes",
+            "spicy paprika",
+            "cumin",
+            "chilli flakes",
             "1 lime (juiced)",
             "Salt & pepper"
           ]
@@ -21,11 +21,11 @@
         {
           "label": "Toppings",
           "items": [
-            "1 avocado",
-            "¼ cabbage, shredded",
-            "1 carrot, grated",
-            "1 tomato, diced",
-            "½ onion, finely chopped"
+            "avocado",
+            "cabbage, shredded",
+            "carrot, grated",
+            "tomato, diced",
+            "onion, finely chopped"
           ]
         },
         {
@@ -59,8 +59,8 @@
         {
           "label": "Sides",
           "instructions": [
-            "Guac: Smash avocado + lime + salt + chilli flakes + onion/tomato.",
-            "Slaw: Mix cabbage, carrot, onion + salt, pepper, oil, vinegar."
+            "Guacamole: Smash avocado + lime + salt + chilli flakes + onion/tomato.",
+            "Coleslaw: Mix cabbage, carrot, onion + salt, pepper, oil, vinegar."
           ]
         },
         {

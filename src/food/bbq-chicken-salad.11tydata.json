@@ -1,0 +1,101 @@
+{
+  "title": "Simple BBQ Chicken Salad",
+  "date": "2025/09/09",
+  "intro": "Simple quick and easy salad using up some leftovers.",
+  "serves": "2-3",
+  "meta": {
+    "time": "[Time to make, e.g. 60 mins]",
+    "price": "[Price, e.g. 9.99€]"
+  },
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "la ensalada",
+          "items": [
+            "Chicken breast or thigh",
+            "Lettuce",
+            "Red onion", 
+            "red pepper",
+            "(ideally) Jamaican Bar-B-Q seasoning",
+            "salt",
+            "pepper",
+            "garlic powder",
+            "onion powder",
+            "paprika",
+            "cumin",
+            "coriander",
+            "tyme"
+          ]
+        },
+        {
+          "label": "la salsa",
+          "items": [
+            "Dijon mustard but I probably just used some yellow mustard",
+            "honey",
+            "olive oil",
+            "white wine vinegar (or apple cider vinegar)",
+            "A pinch of salt",
+            "Freshly ground black pepper to taste"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Sort the chicken",
+          "instructions": [
+            "Chop up the chicken.",
+            "Mix the herbs, spices, seasonings and some oil and coat the chicken.",
+            "Cook it. I put it in the airfryer but you can chuck it in a pan."
+          ]
+        },
+        {
+          "label": "Chop the veg",
+          "instructions": [
+            "With the chicken in, wash and chop the veg.",
+            "Season, oil do whatever.",
+            "Whack it in a bowl."
+          ]
+        },
+        {
+          "label": "A dressing?",
+          "instructions": [
+            "Whisk together the mustard, honey, and vinegar until they are well combined.",
+            "Slowly drizzle in the olive oil while whisking to help it emulsify",
+            "Add a pinch of salt and black pepper to taste. Adjust the sweetness and tanginess as needed by adding a little more honey or vinegar."
+          ]
+        }
+        
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Budget note 1",
+        "Budget note 2"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "[Album] Heavier Jelly - SOFT PLAY"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "As always most of these things come about because I'm trying to use up things in the fridge and don't/can't spend more money!"
+    }
+  ]
+}

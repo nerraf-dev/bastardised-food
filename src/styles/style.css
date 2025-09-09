@@ -114,6 +114,15 @@ details summary {
 /* Tablet */
 @media (min-width: 768px) {
 
+  body {
+  background-color: var(--header-bg-colour);
+  color: var(--body-text-colour);
+  font-family: "IBM Plex Sans", system-ui !important;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 60px;
+  }
+
   h1 {
     color: var(--h1-colour);
     font-family: "Rubik Marker Hatch", system-ui !important;
