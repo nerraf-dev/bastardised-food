@@ -1,4 +1,8 @@
 <section class="hero">
     <h1>{{ heroTitle }}</h1>
     <p> {{ heroSubtitle }}</p>
+    <p>{{ heroBody }}</p>
+    {% if heroOutro %}
+    <p><em>{{ heroOutro }}</em></p>
+    {% endif %}
 </section>

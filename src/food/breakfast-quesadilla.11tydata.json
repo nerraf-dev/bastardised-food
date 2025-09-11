@@ -1,0 +1,76 @@
+{
+  "title": "Leftovers breakfast not-a-quesadilla",
+  "date": "2025-09-09",
+  "intro": "This 'quesadilla' is the result of a hungry morning and a fridge of leftovers. Purists will be mad, but this isn't a quesadilla. It’s an omelette and a breakfast sandwich that got lost and found each other in a tortilla. It's a glorious mess, and it’s a brilliant way to use up that last bit of ham to satisfy your hunger with zero fuss. So what if it doesn't follow the rules?",
+  "serves": 1,
+  "meta": {
+    "time": "[Time to make, e.g. 60 mins]",
+    "price": "[Price, e.g. 9.99€]"
+  },
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "The essentials",
+          "items": [
+            "Eggs (Typically I use 2 XL eggs, you could be loking at 2 to 3 if you go smaller)",
+            "Cheese",
+            "Tortilla de trigo (flour tortilla)",
+            "Ham",
+            "Onion",
+            "Chilli", 
+            "Corriander",
+            "Salt & Pepper",
+            "hot sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Chop and Mix",
+          "instructions": [
+            "Started by prepping the filling of the egg, cheese, leftover ham and whatnot. So start by chopping up the onion, chilli and ham. Chop some corriander too if you've got it.",
+            "Beat the eggs, just don't go crazy theres no need to over do it.",
+            "Get a pan on the hob, go medium-ish (mines goes 0 to 6, so I go 3). It wants to be hot enough to cook the egg but not f**k the tortilla.",
+            "Throw the veg, cheese and ham on the tortilla, I like to give it a mix then make a well in the middle for the egg to go into.",
+            "Pour the egg into the well, season with salt, pepper, paprika, chilli (flakes).",
+            "Now, it will allmost certainly start running everywhere! If the pan is hot enough it will start to cook off and makes it easy to just push it back together with a spatula and then *fold* over the tortilla. If it didn't run before...it will do now!",
+            "The mixture running out doesn't really matter and it coats the tortilla in egg and cheese which is nice. As it cooks you should be able to flip it over to cook the other side.",
+            "Once both sides are golden brown and the egg is cooked through, stick it onto a plate, season, throw on some fresh corriander and chilli and splatter in hot sauce."
+          ]
+        }
+
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Budget note 1",
+        "Budget note 2"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "Track 1",
+        "Track 2"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "Extra notes, tips, or story."
+    }
+  ]
+}

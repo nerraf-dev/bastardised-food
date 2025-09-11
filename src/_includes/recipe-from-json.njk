@@ -5,11 +5,10 @@ layout: base.njk
   <h1>{{ title }}</h1>
   <p><em>{{ intro }}</em></p>
 
-    {% if cover_image %}
-        <div class="cover-image">
-            <img src="{{ cover_image }}" alt="{{ title }}" style="width:100%;height:auto;display:block;">
+{% if cover_image %}
+    <div class="cover-image" style="background-image: url('{{ cover_image }}');">
         </div>
-    {% endif %}
+{% endif %}
 
   <p class="meta">
     {% if serves %}<i class="fa-solid fa-people-group"></i> {{ serves }} {% endif %}
@@ -40,17 +39,13 @@ layout: base.njk
       <details>
         <summary>🍳 Method</summary>
         <div class="content">
-          <ol>
             {% for step in section.steps %}
-              <li><strong>{{ step.label }}:</strong>
-                <ul>
+              <h3>{{ step.label }}:</h3>
                   {% for instruction in step.instructions %}
-                    <li>{{ instruction }}</li>
+                    <p>{{ instruction }}</p>
                   {% endfor %}
-                </ul>
-              </li>
+                <hr>
             {% endfor %}
-          </ol>
         </div>
       </details>
     {% endif %}
