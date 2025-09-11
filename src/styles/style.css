@@ -59,7 +59,7 @@ header h1 {
 } */
 
 .hero {
-  height: 400px;
+  min-height: 300px;
   background-color: rgb(19, 17, 55);
   border: var(--secondary-colour) 1px solid;
   border-radius: 12px;
