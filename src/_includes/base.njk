@@ -13,14 +13,14 @@
     <body>
         {% include "nav.njk" %}
         
-        <!-- MAIN -->
+        {# <!-- MAIN --> #}
         <main class="container">
             {{ content | safe }}
         </main>
-        <!-- FOOTER -->
-        <footer>
-
-        </footer>
+        {# <!-- END MAIN --> #}
+        {# --- FOOTER --- #}
+        {% include "footer.njk" %}
+        {# END FOOTER #}
         <script src="/scripts/script.js"></script>
     </body>
 </html>
