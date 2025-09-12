@@ -1,0 +1,70 @@
+{
+  "title": "Morning Pitta Pocket",
+  "date": "2025-09-10",
+  "intro": "A quick and easy breakfast pitta stuffed with eggs, cheese, and anything else left in the fridge. This time I had a couple of pittas from another meal, some leftover bacon bits and a handful of cherry tomatoes. Perfect for a lazy weekend morning or a grab-and-go breakfast.",
+  "serves": 1,
+  "meta": {
+    "time": "[Time to make, e.g. 60 mins]",
+    "price": "[Price, e.g. 9.99€]"
+  },
+  "sections": [
+    {
+      "type": "ingredients",
+      "groups": [
+        {
+          "label": "The stuff",
+          "items": [
+            "Your leftover pittas",
+            "Eggs",
+            "Cheese",
+            "Bacon bits",
+            "Jalapeños",
+            "Onion",
+            "Tomato"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "method",
+      "steps": [
+        {
+          "label": "Chop and Mix",
+          "instructions": [
+            "Grab the stuff from the fridge and chop it up if it isn't already.",
+            "Beat the eggs and get a pan on the heat.",
+            "Throw everything in the pan and cook until the eggs are set.",
+            "Season the mix with a decent helping of pepper, salt, chilli flakes, whatever is about.",
+            "Pop the pittas in the toaster, and when the egg is done stuff it in the bread."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "budget",
+      "notes": [
+        "Budget note 1",
+        "Budget note 2"
+      ]
+    },
+    {
+      "type": "timings",
+      "timings": {
+        "Prep": "[X] mins",
+        "Cook": "[X] mins",
+        "Total": "[X] mins"
+      }
+    },
+    {
+      "type": "soundtrack",
+      "tracks": [
+        "Track 1",
+        "Track 2"
+      ]
+    },
+    {
+      "type": "waffle",
+      "text": "Extra notes, tips, or story."
+    }
+  ]
+}
