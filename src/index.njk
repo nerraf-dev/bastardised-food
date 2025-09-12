@@ -12,7 +12,7 @@ heroOutro: "Call it a fusion, a mash-up, or a 'bastardisation'—it's about taki
 <section class="latest">
     <h2>Latest Bastardisations</h2>
     <div class="post-grid">
-        {% set latest = collections.food.slice(0, 3) %}
+        {% set latest = collections.food.slice(0, 6) %}
         {% for post in latest %}
             <article class="post-card">
                 <a href="{{ post.url }}"><img src="{{ post.data.cover_image or 'https://picsum.photos/id/63/400' }}" alt="{{ post.data.title }}"></a>
