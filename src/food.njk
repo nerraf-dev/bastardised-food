@@ -11,7 +11,13 @@ permalink: "/food/"
     <div class="post-grid">
         {% for post in collections.food %}
             <article class="post-card">
-                <a href="{{ post.url }}"><img src="{{ post.data.cover_image or 'https://picsum.photos/id/63/400' }}" alt="{{ post.data.title }}"></a>
+                <a href="{{ post.url }}">
+                    <picture>
+                        <source srcset="{{ post.data.cover_image | replace('.jpg', '.avif') }}" type="image/avif">
+                        <source srcset="{{ post.data.cover_image | replace('.jpg', '.webp') }}" type="image/webp">
+                        <img src="{{ post.data.cover_image or 'https://picsum.photos/id/63/400' }}" alt="{{ post.data.title }}">
+                    </picture>
+                </a>
                 <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
                 <p class="excerpt">{{ post.data.excerpt or '' }}</p>
                 <span class="meta">Posted: {{ post.date | date('yyyy-MM-dd') }}</span>

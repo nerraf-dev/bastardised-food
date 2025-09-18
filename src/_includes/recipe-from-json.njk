@@ -6,8 +6,14 @@ layout: base.njk
   <p><em>{{ intro }}</em></p>
 
 {% if cover_image %}
-    <div class="cover-image" style="background-image: url('{{ cover_image }}');">
-        </div>
+    {# <div class="cover-image" style="background-image: url('{{ cover_image }}');">
+        </div> #}
+    <picture>
+      <source srcset="{{ cover_image | replace('.jpg', '.avif') }}" type="image/avif">
+      <source srcset="{{ cover_image | replace('.jpg', '.webp') }}" type="image/webp">
+      <img src="{{ cover_image }}" alt="{{ title }}" class="cover-image" width="338" height="244">
+    </picture>
+    
 {% endif %}
 
   <p class="meta">
