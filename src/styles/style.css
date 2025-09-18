@@ -1,7 +1,214 @@
-@import "vars.css"; 
-@import "reset.css";
-@import "navbar.css";
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Marker+Hatch&display=swap');
+
+
+/*  VARS */
+/* Define CSS variables */
+:root {
+    --bg-colour: #222637;
+    --primary-colour: #FFBC02;
+    --secondary-colour: #464646;
+
+    --body-text-colour: #b4b4b3;
+    --h1-colour: #FFBC02;
+    --h2-colour: #FFBC02;
+    --h3-colour: #FFBC02;
+
+    
+    /* Navbar related vars */
+    --navbar-border-colour: #FFBC02;
+    --navbar-text-colour: #EFBC30;
+    --hover-bg-colour: #FFBC02;
+    --hover-text-colour: #000000;
+
+    /* Header related vars */
+    --header-bg-colour: #000116;
+    --header-h1-colour: #FFBC02;
+    --header-text-colour: #dadada;
+
+    /* details vars */
+    --details-bg-colour: #1c1d38;
+    --details-text-colour: #FFBC02;
+    /* Footer related vars */
+  }
+/* ---END--- */
+
+/* RESET CSS */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+
+
+/* ---END--- */
+
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--bg-colour);
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Stick it to the top of the page */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.menu-toggle {
+  display: block; /* Show the toggle label by default for mobile */
+  cursor: pointer;
+  color: var(--navbar-text-colour);
+  order: 1; /* Position after logo */
+}
+
+.logo {
+  color: var(--navbar-text-colour);
+  order: 0; /* Position before the toggle */
+}
+
+.logo h1 {
+  font-size: 20px;
+}
+
+.nav-links {
+  display: none; /* Hide the nav links by default on mobile */
+  flex-direction: column;
+  position: fixed; /* Change to fixed to align with the fixed navbar */
+  top: 55px; /* Adjust this value to match the height of the navbar */
+  left: 0;
+  right: 0;
+  background-color: var(--header-bg-colour);
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it's above other content */
+  margin: 0 auto; /* Center the dropdown */
+}
+
+.nav-links li {
+  color: var(--navbar-text-colour);
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Show the nav links when the checkbox is checked */
+#menu-toggle-checkbox:checked ~ .nav-links {
+  display: flex;
+}
+
+/* Hide the actual checkbox */
+#menu-toggle-checkbox {
+  display: none;
+}
+
+/* Desktop styles (apply when screen width is 769px or more) */
+@media (min-width: 769px) {
+  .navbar {
+      justify-content: space-between; /* Keep space-between but control with order */
+  }
+
+  .menu-toggle {
+      display: none; /* Hide the toggle on desktop */
+  }
+
+  .logo {
+      order: 0; /* Logo first */
+  }
+
+  .nav-links {
+      display: flex; /* Show the links horizontally on desktop */
+      flex-direction: row;
+      order: 1; /* Nav links second - this will push them right with space-between */
+      position: static;
+      background-color: transparent;
+      padding: 0;
+      box-shadow: none;
+      margin: 0; /* Reset the mobile margin */
+  }
+
+  .nav-links li {
+      margin-left: 1rem;
+      margin-bottom: 0;
+  }
+}
+/* --END-- */
 
 /* Default styles (mobile first) */
 body {
