@@ -8,6 +8,128 @@
         <link rel="stylesheet" href="/styles/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title> {{ title }} </title>
+
+        <style>
+            /* GOOGLE FONTS */
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Marker+Hatch&display=swap');
+
+            /* CSS Variables */
+            :root {
+            --bg-colour: #222637;
+            --primary-colour: #FFBC02;
+            --secondary-colour: #464646;
+            --body-text-colour: #b4b4b3;
+            --h1-colour: #FFBC02;
+            --h2-colour: #FFBC02;
+            --h3-colour: #FFBC02;
+            --navbar-border-colour: #FFBC02;
+            --navbar-text-colour: #EFBC30;
+            --hover-bg-colour: #FFBC02;
+            --hover-text-colour: #000000;
+            --header-bg-colour: #000116;
+            --header-h1-colour: #FFBC02;
+            --header-text-colour: #dadada;
+            --details-bg-colour: #1c1d38;
+            --details-text-colour: #FFBC02;
+            }
+
+            /* Reset & Base Styles */
+            *, *::before, *::after { box-sizing: border-box; }
+            body, h1, h2, h3, h4, p, figure, blockquote, dl, dd { margin-block-end: 0; }
+            body {
+            min-height: 100vh;
+            line-height: 1.5;
+            background-color: var(--header-bg-colour);
+            color: var(--body-text-colour);
+            font-family: "IBM Plex Sans", system-ui !important;
+            font-size: 14px;
+            margin: 0;
+            padding-top: 60px;
+            }
+            h1, h2, h3, h4 { line-height: 1.1; text-wrap: balance; }
+            h1 {
+            color: var(--h1-colour);
+            font-family: "Rubik Marker Hatch", system-ui !important;
+            font-size: 2.5em;
+            margin: 0;
+            }
+            h2 {
+            color: var(--h2-colour);
+            font-family: "Rubik Marker Hatch", system-ui !important;
+            font-size: 1.5em;
+            margin: 0;
+            }
+            h3 {
+            color: var(--h3-colour);
+            font-size: 1.25em;
+            margin: 0;
+            }
+
+            /* Navbar Styles */
+            .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: var(--bg-colour);
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .menu-toggle { display: block; cursor: pointer; color: var(--navbar-text-colour); order: 1; }
+            .logo { color: var(--navbar-text-colour); order: 0; }
+            .logo h1 { font-size: 20px; }
+            .nav-links {
+            display: none;
+            flex-direction: column;
+            position: fixed;
+            top: 55px; left: 0; right: 0;
+            background-color: var(--header-bg-colour);
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+            margin: 0 auto;
+            }
+            .nav-links li { color: var(--navbar-text-colour); list-style: none; margin-bottom: 0.5rem; }
+            nav a { text-decoration: none; }
+            #menu-toggle-checkbox:checked ~ .nav-links { display: flex; }
+            #menu-toggle-checkbox { display: none; }
+            @media (min-width: 769px) {
+            .navbar { justify-content: space-between; }
+            .menu-toggle { display: none; }
+            .logo { order: 0; }
+            .nav-links {
+                display: flex;
+                flex-direction: row;
+                order: 1;
+                position: static;
+                background-color: transparent;
+                padding: 0;
+                box-shadow: none;
+                margin: 0;
+            }
+            .nav-links li { margin-left: 1rem; margin-bottom: 0; }
+            }
+
+            /* Main Container */
+            .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            }
+
+            /* Hero Section (if visible above fold) */
+            .hero {
+            min-height: 300px;
+            background-color: rgb(19, 17, 55);
+            border: var(--secondary-colour) 1px solid;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            }
+        </style>
+
     </head>
 
     <body>
