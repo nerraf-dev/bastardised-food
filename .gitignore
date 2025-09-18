@@ -30,3 +30,6 @@ Thumbs.db
 
 # Optional: Mac system files
 Icon?
+
+
+.DS_Store
